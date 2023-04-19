@@ -6,9 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
     <div class="login-container">
         <div class="login-header">
-            <div class="login-header-img">
-                <img src="@/assets/logoLocaweb.png" alt="Logo" height="50" width="250">
-            </div>
+            <headerLogin></headerLogin>
         </div>
         <div class="form-login">
             <div class="form-login-card">
